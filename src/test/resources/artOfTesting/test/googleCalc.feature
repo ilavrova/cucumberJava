@@ -7,3 +7,8 @@ Feature: Check addition in Google calculator
    Given I open google
    When I enter "2+2=" in search textbox
    Then I should get result as "4"
+
+   Scenario: Addition
+      Given I open google
+      When I enter "2-1=" in search textbox
+      Then I should get result as "1"
